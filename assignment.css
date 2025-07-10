@@ -9,14 +9,128 @@ nav{
     font-size: 35px;
     color:#4E47FF;
     font-weight: bold;
+    
 }
 .btn-pri{
-    background-color: #4E47FF;
-    color:#fff;
+   
     width: 132px;
     height:48px ;
+
+}
+.btn-share{
+     background-color: #4E47FF;
+    color:#fff;
     border-radius: 10px;
     border: none;
     font-weight: bold;
+}
+.banner-heading{
+    text-align: center;
+    font-size: 65px;
+    padding-top: 160px;
+}
+.btn-2{
+   width: 174px;
+   height: 48px;
 
+}
+.btn{
+    text-align: center;
+    padding:37px;
+}
+.header{
+    background-image: url(Assets/Hero-bg.png);
+}
+
+/* Action section */
+main{
+    margin-left: 140px;
+    margin-right: 160px;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+.action-title{
+    font-size: 42px;
+}
+.action-description{
+    font-size: 24px;
+    color: #252432;
+}
+.btn-3{
+ width:230px;
+ height:48px;
+}
+.image-mini{
+    border-radius: 48px;
+    border: none;
+}
+.product{
+    display: flex;
+    justify-content:space-around;
+}
+.production-title{
+    text-align: center;
+    font-size: 38px;
+    padding-top: 50px;
+}
+.product-amount{
+    font-size: 80px;
+    color:#4E47FF;
+    margin:0px;
+}
+.production{
+    background-color: rgba(78, 71, 255, 0.1);
+    height: 310px;
+    border-radius: 24px;
+    border:none;
+}
+.count{
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+.product-titles{
+    margin: 0px;
+    font-size: 24px;
+}
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+section{
+    margin-top:150px;
+    margin-bottom: 150px;
+}
+.center{
+    text-align: center;
+}
+.focus-title{
+    font-size: 50px;
+    margin:0px;
+}
+.image-b{
+    display: block;
+    margin:30px auto 200px auto;
+    
+    border-radius: 20px;
+    border:none;
+}
+body{
+    background-color: rgb(244, 246, 247);
+}
+.focus{
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    height:750px;
+    
+}
+.focus-title{
+    padding-top: 70px;
 }
