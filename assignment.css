@@ -1,0 +1,22 @@
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.nav-title{
+    font-size: 35px;
+    color:#4E47FF;
+    font-weight: bold;
+}
+.btn-pri{
+    background-color: #4E47FF;
+    color:#fff;
+    width: 132px;
+    height:48px ;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+
+}
