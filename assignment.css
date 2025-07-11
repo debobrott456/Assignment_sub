@@ -18,6 +18,10 @@ nav{
   
 }
 
+.btn-share:hover{
+    background-color: cadetblue;
+}
+
 .btn-pri{
    
     width: 132px;
