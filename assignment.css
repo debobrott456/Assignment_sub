@@ -11,6 +11,13 @@ nav{
     font-weight: bold;
     
 }
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+ 
+  font-weight: bold;
+  
+}
+
 .btn-pri{
    
     width: 132px;
@@ -113,6 +120,7 @@ section{
 .focus-title{
     font-size: 50px;
     margin:0px;
+     padding-top: 70px;
 }
 .image-b{
     display: block;
@@ -128,9 +136,76 @@ body{
     background-color: #fff;
     border-radius: 10px;
     border: none;
-    height:750px;
+    height:720px;
     
 }
-.focus-title{
-    padding-top: 70px;
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+   input[type="text"], input[type="email"],textarea{
+    background-color: #fff;
+    height:55px;
+    border-radius: 5px;
+    padding:15px;
+    margin-bottom: 24px;
+    
+    border: none;
+    display: block;
+    width:100%;
+    font-size: medium;
+  }
+  label{
+    font-size: 18px;
+  }
+ 
+  .form{
+    width:50%;
+    padding:50px;
+  }
+  .title{
+    font-size: 70px;
+  }
+  .btn-4{
+    width:100%;
+    height:62px;
+  }
+  .shadow-heading {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  
+}
+.footer-title{
+    color:#4E47FF;
+    font-size: 100px;
+    padding-top: 80px;
+}
+.menu-container{
+    display:flex;
+   gap:40px;
+   padding:0px 550px ;
+   align-items: center;
+}
+footer{
+    background-color: #fff;
+}
+.footer-description, .menu-description{
+ color:#8987A1; 
+}
+
+/* Card section */
+.card-container{
+    display:flex;
+    gap:40px;
+}
+.card{
+    border:3px solid #F2EDED;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.card-titles{
+    font-size: 42px;
+}
+.cards{
+    background-color: #fff;
 }
